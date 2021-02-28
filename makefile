@@ -8,3 +8,6 @@ install:
 depens:
 	sudo pip3 install bs4
 	sudo pip3 install lxml
+remove:
+	sudo rm /usr/bin/ipf
+	sudo rm -rf /usr/share/ipf
